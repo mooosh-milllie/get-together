@@ -6,6 +6,7 @@ export default function Home() {
   const [initData, setInitData] = useState('')
   const [userId, setUserId] = useState('')
   const [startParam, setStartParam] = useState('')
+  const [count, setCount] = useState(0)
 
   useEffect(() => {
     const initWebApp = async () => {
@@ -20,11 +21,23 @@ export default function Home() {
 
     initWebApp();
   }, [])
+
+
   return (
-    <div className="flex w-100">
-      <p><b>USER ID:</b> {userId}</p>
-      <p><b>INIT DATA:</b> {initData}</p>
-      <p><b>START PARAM:</b> {startParam}</p>
-    </div>
+    <>
+      <div className="flex w-100">
+        <p><b>USER ID:</b> {userId}</p>
+        <p><b>INIT DATA:</b> {initData}</p>
+        <p><b>START PARAM:</b> {startParam}</p>
+      </div>
+
+      <div>
+        <p><b>C</b> {count}</p>
+      </div>
+
+      <div onClick={() => setCount(count + 1)} style={{width: '100px', height: '100px', borderRadius: "50%", border: '2px solid red', backgroundColor: "blueviolet"}}>
+
+      </div>
+    </>
   );
 }
