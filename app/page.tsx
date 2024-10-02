@@ -35,7 +35,7 @@ export default function Home() {
         <p><b>C</b> {count}</p>
       </div>
 
-      <div onClick={() => setCount(count + 1)} style={{width: '100px', height: '100px', borderRadius: "50%", border: '2px solid red', backgroundColor: "blueviolet"}}>
+      <div onClick={() => setCount(count + 1)} style={{width: '200px', height: '200px', borderRadius: "50%", border: '2px solid red', backgroundColor: "blueviolet"}}>
 
       </div>
     </>
