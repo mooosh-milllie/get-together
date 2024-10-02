@@ -25,7 +25,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="flex w-100">
+      <div>
         <p><b>USER ID:</b> {userId}</p>
         <p><b>INIT DATA:</b> {initData}</p>
         <p><b>START PARAM:</b> {startParam}</p>
