@@ -37,14 +37,14 @@ export default function Home() {
 
       <div style={{border: "2px solid yellow", height: "300px", width: "300px", borderRadius: "50%"}}>
         <div style={{width: '200px', height: '200px', borderRadius: "50%", border: '2px solid red', backgroundColor: "blueviolet", display: "flex", flexFlow: "wrap", margin: "auto"}}>
-          <div onClick={() => setCount(count + 1)} style={{width: "25%", height: "50%", border: "1px solid green"}}></div>
-          <div onClick={() => setCount(count + 1)} style={{width: "25%", height: "50%", border: "1px solid green"}}></div>
-          <div onClick={() => setCount(count + 1)} style={{width: "25%", height: "50%", border: "1px solid green"}}></div>
-          <div onClick={() => setCount(count + 1)} style={{width: "25%", height: "50%", border: "1px solid green"}}></div>
-          <div onClick={() => setCount(count + 1)} style={{width: "25%", height: "50%", border: "1px solid green"}}></div>
-          <div onClick={() => setCount(count + 1)} style={{width: "25%", height: "50%", border: "1px solid green"}}></div>
-          <div onClick={() => setCount(count + 1)} style={{width: "25%", height: "50%", border: "1px solid green"}}></div>
-          <div onClick={() => setCount(count + 1)} style={{width: "25%", height: "50%", border: "1px solid green"}}></div>
+          <div onTouchStart={() => setCount(count + 1)} style={{width: "25%", height: "50%", border: "1px solid green"}}></div>
+          <div onTouchStart={() => setCount(count + 1)} style={{width: "25%", height: "50%", border: "1px solid green"}}></div>
+          <div onTouchStart={() => setCount(count + 1)} style={{width: "25%", height: "50%", border: "1px solid green"}}></div>
+          <div onTouchStart={() => setCount(count + 1)} style={{width: "25%", height: "50%", border: "1px solid green"}}></div>
+          <div onTouchStart={() => setCount(count + 1)} style={{width: "25%", height: "50%", border: "1px solid green"}}></div>
+          <div onTouchStart={() => setCount(count + 1)} style={{width: "25%", height: "50%", border: "1px solid green"}}></div>
+          <div onTouchStart={() => setCount(count + 1)} style={{width: "25%", height: "50%", border: "1px solid green"}}></div>
+          <div onTouchStart={() => setCount(count + 1)} style={{width: "25%", height: "50%", border: "1px solid green"}}></div>
         </div>
       </div>
       
